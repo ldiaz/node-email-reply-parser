@@ -1,10 +1,10 @@
 {
-  "name": "@flowstudio/node-email-reply-parser",
+  "name": "@ldiaz/node-email-reply-parser",
   "version": "0.1.2",
   "description": "Parses emails to remove replies and other potentially unwanted data",
   "author": "Travis Ralston <travis.nathaniel.ralston@gmail.com> (http://travisralston.me)",
   "license": "MIT",
-  "homepage": "https://github.com/turt2live/node-email-reply-parser#readme",
+  "homepage": "https://github.com/ldiaz/node-email-reply-parser#readme",
   "keywords": [
     "email",
     "parser",
@@ -15,10 +15,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/turt2live/node-email-reply-parser.git"
+    "url": "git+https://github.com/ldiaz/node-email-reply-parser.git"
   },
   "bugs": {
-    "url": "https://github.com/turt2live/node-email-reply-parser/issues"
+    "url": "https://github.com/ldiaz/node-email-reply-parser/issues"
   },
   "engines": {
     "node": ">= 6.0.0"
