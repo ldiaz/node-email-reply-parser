@@ -24,18 +24,18 @@ function parse(text, visibleTextOnly) {
 module.exports = parse;
 
 // Only run this code if we're the main entry point (useful for quick testing locally)
-if (require.main === module) {
-    // we only import fs and path here because it is bloat to the library otherwise
-    var fs = require('fs');
-    var path = require('path');
+// if (require.main === module) {
+//     // we only import fs and path here because it is bloat to the library otherwise
+//     var fs = require('fs');
+//     var path = require('path');
 
-    if (process.argv.length != 3) {
-        console.error("Invalid argument. Syntax: node index.js <file path>");
-        process.exit(1);
-    }
+//     if (process.argv.length != 3) {
+//         console.error("Invalid argument. Syntax: node index.js <file path>");
+//         process.exit(1);
+//     }
 
-    var fileContents = fs.readFileSync(process.argv[2], 'utf8');
-    var text = parse(fileContents, true);
+//     var fileContents = fs.readFileSync(process.argv[2], 'utf8');
+//     var text = parse(fileContents, true);
 
-    console.log(text);
-}
+//     console.log(text);
+// }
